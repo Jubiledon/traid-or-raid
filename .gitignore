@@ -1,0 +1,7 @@
+.env
+scrap.py
+test_gemma.py
+test_anthropic.py
+test_llm_brain.py
+download_gemma.py
+google/

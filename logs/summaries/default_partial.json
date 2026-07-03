@@ -1,0 +1,17 @@
+[
+  {
+    "ticks": 44,
+    "collective_efficiency": 1.0,
+    "agent_scores": {
+      "A3": 7,
+      "A2": 5,
+      "A4": 12,
+      "A1": 6
+    },
+    "resources_remaining": 0,
+    "malformed_rates": {},
+    "trial": 1,
+    "seed": 1,
+    "condition": "default"
+  }
+]

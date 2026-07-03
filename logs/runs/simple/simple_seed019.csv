@@ -1,0 +1,197 @@
+tick,agent_id,personality,position,inventory,action_type,action_detail,result,message,resources_remaining
+1,A1,aggressive,"(0, 7)",1,collect,{'type': 'collect'},collected,,29
+1,A4,cooperative,"(1, 7)",0,move,"{'type': 'move', 'direction': 'W'}",moved_W,,29
+1,A2,cooperative,"(6, 7)",1,collect,{'type': 'collect'},collected,,28
+1,A3,aggressive,"(1, 3)",0,move,"{'type': 'move', 'direction': 'N'}",moved_N,,28
+2,A4,cooperative,"(1, 6)",0,move,"{'type': 'move', 'direction': 'N'}",moved_N,,28
+2,A1,aggressive,"(0, 8)",1,move,"{'type': 'move', 'direction': 'S'}",moved_S,,28
+2,A3,aggressive,"(1, 3)",1,collect,{'type': 'collect'},collected,,27
+2,A2,cooperative,"(6, 8)",1,move,"{'type': 'move', 'direction': 'S'}",moved_S,,27
+3,A4,cooperative,"(1, 6)",1,collect,{'type': 'collect'},collected,,26
+3,A3,aggressive,"(1, 4)",1,move,"{'type': 'move', 'direction': 'S'}",moved_S,,26
+3,A1,aggressive,"(0, 8)",2,collect,{'type': 'collect'},collected,,25
+3,A2,cooperative,"(6, 8)",2,collect,{'type': 'collect'},collected,,24
+4,A3,aggressive,"(1, 5)",1,move,"{'type': 'move', 'direction': 'S'}",moved_S,,24
+4,A4,cooperative,"(1, 6)",1,move,"{'type': 'move', 'direction': 'N'}",move_blocked,,24
+4,A2,cooperative,"(5, 8)",2,move,"{'type': 'move', 'direction': 'W'}",moved_W,,24
+4,A1,aggressive,"(1, 8)",2,move,"{'type': 'move', 'direction': 'E'}",moved_E,,24
+5,A2,cooperative,"(5, 8)",3,collect,{'type': 'collect'},collected,,23
+5,A4,cooperative,"(1, 6)",1,move,"{'type': 'move', 'direction': 'N'}",move_blocked,,23
+5,A1,aggressive,"(1, 8)",3,collect,{'type': 'collect'},collected,,22
+5,A3,aggressive,"(1, 5)",2,collect,{'type': 'collect'},collected,,21
+6,A1,aggressive,"(2, 8)",3,move,"{'type': 'move', 'direction': 'E'}",moved_E,,21
+6,A4,cooperative,"(2, 6)",1,move,"{'type': 'move', 'direction': 'E'}",moved_E,,21
+6,A2,cooperative,"(4, 8)",3,move,"{'type': 'move', 'direction': 'W'}",moved_W,,21
+6,A3,aggressive,"(2, 5)",2,move,"{'type': 'move', 'direction': 'E'}",moved_E,,21
+7,A3,aggressive,"(3, 5)",2,move,"{'type': 'move', 'direction': 'E'}",moved_E,,21
+7,A2,cooperative,"(4, 9)",3,move,"{'type': 'move', 'direction': 'S'}",moved_S,,21
+7,A4,cooperative,"(3, 6)",1,move,"{'type': 'move', 'direction': 'E'}",moved_E,,21
+7,A1,aggressive,"(2, 9)",3,move,"{'type': 'move', 'direction': 'S'}",moved_S,,21
+8,A4,cooperative,"(3, 6)",2,collect,{'type': 'collect'},collected,,20
+8,A2,cooperative,"(4, 9)",4,collect,{'type': 'collect'},collected,,19
+8,A1,aggressive,"(2, 9)",4,collect,{'type': 'collect'},collected,,18
+8,A3,aggressive,"(4, 5)",2,move,"{'type': 'move', 'direction': 'E'}",moved_E,,18
+9,A2,cooperative,"(4, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+9,A3,aggressive,"(4, 6)",2,move,"{'type': 'move', 'direction': 'S'}",moved_S,,18
+9,A4,cooperative,"(3, 6)",2,move,"{'type': 'move', 'direction': 'E'}",move_blocked,,18
+9,A1,aggressive,"(2, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+10,A2,cooperative,"(4, 8)",4,move,"{'type': 'move', 'direction': 'N'}",moved_N,,18
+10,A4,cooperative,"(3, 6)",2,move,"{'type': 'move', 'direction': 'E'}",move_blocked,,18
+10,A3,aggressive,"(4, 6)",3,collect,{'type': 'collect'},collected,,17
+10,A1,aggressive,"(2, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,17
+11,A4,cooperative,"(3, 6)",2,move,"{'type': 'move', 'direction': 'E'}",move_blocked,,17
+11,A2,cooperative,"(3, 8)",4,move,"{'type': 'move', 'direction': 'W'}",moved_W,,17
+11,A3,aggressive,"(4, 5)",3,move,"{'type': 'move', 'direction': 'N'}",moved_N,,17
+11,A1,aggressive,"(2, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,17
+12,A1,aggressive,"(2, 8)",4,move,"{'type': 'move', 'direction': 'N'}",moved_N,,17
+12,A3,aggressive,"(5, 5)",3,move,"{'type': 'move', 'direction': 'E'}",moved_E,,17
+12,A2,cooperative,"(4, 8)",4,move,"{'type': 'move', 'direction': 'E'}",moved_E,,17
+12,A4,cooperative,"(4, 6)",2,move,"{'type': 'move', 'direction': 'E'}",moved_E,,17
+13,A4,cooperative,"(4, 5)",2,move,"{'type': 'move', 'direction': 'N'}",moved_N,,17
+13,A3,aggressive,"(5, 4)",3,move,"{'type': 'move', 'direction': 'N'}",moved_N,,17
+13,A1,aggressive,"(3, 8)",4,move,"{'type': 'move', 'direction': 'E'}",moved_E,,17
+13,A2,cooperative,"(4, 7)",4,move,"{'type': 'move', 'direction': 'N'}",moved_N,,17
+14,A1,aggressive,"(3, 7)",4,move,"{'type': 'move', 'direction': 'N'}",moved_N,,17
+14,A2,cooperative,"(4, 8)",4,move,"{'type': 'move', 'direction': 'S'}",moved_S,,17
+14,A3,aggressive,"(5, 4)",4,collect,{'type': 'collect'},collected,,16
+14,A4,cooperative,"(5, 5)",2,move,"{'type': 'move', 'direction': 'E'}",moved_E,,16
+15,A1,aggressive,"(3, 8)",4,move,"{'type': 'move', 'direction': 'S'}",moved_S,,16
+15,A2,cooperative,"(5, 8)",4,move,"{'type': 'move', 'direction': 'E'}",moved_E,,16
+15,A4,cooperative,"(6, 5)",2,move,"{'type': 'move', 'direction': 'E'}",moved_E,,16
+15,A3,aggressive,"(6, 4)",4,move,"{'type': 'move', 'direction': 'E'}",moved_E,,16
+16,A1,aggressive,"(4, 8)",4,move,"{'type': 'move', 'direction': 'E'}",moved_E,,16
+16,A2,cooperative,"(6, 8)",4,move,"{'type': 'move', 'direction': 'E'}",moved_E,,16
+16,A3,aggressive,"(6, 3)",4,move,"{'type': 'move', 'direction': 'N'}",moved_N,,16
+16,A4,cooperative,"(7, 5)",2,move,"{'type': 'move', 'direction': 'E'}",moved_E,,16
+17,A3,aggressive,"(6, 3)",5,collect,{'type': 'collect'},collected,,15
+17,A1,aggressive,"(4, 9)",4,move,"{'type': 'move', 'direction': 'S'}",moved_S,,15
+17,A2,cooperative,"(7, 8)",4,move,"{'type': 'move', 'direction': 'E'}",moved_E,,15
+17,A4,cooperative,"(7, 5)",3,collect,{'type': 'collect'},collected,,14
+18,A2,cooperative,"(7, 8)",5,collect,{'type': 'collect'},collected,,13
+18,A4,cooperative,"(7, 6)",3,move,"{'type': 'move', 'direction': 'S'}",moved_S,,13
+18,A3,aggressive,"(6, 2)",5,move,"{'type': 'move', 'direction': 'N'}",moved_N,,13
+18,A1,aggressive,"(4, 8)",4,move,"{'type': 'move', 'direction': 'N'}",moved_N,,13
+19,A1,aggressive,"(3, 8)",4,move,"{'type': 'move', 'direction': 'W'}",moved_W,,13
+19,A3,aggressive,"(6, 1)",5,move,"{'type': 'move', 'direction': 'N'}",moved_N,,13
+19,A4,cooperative,"(8, 6)",3,move,"{'type': 'move', 'direction': 'E'}",moved_E,,13
+19,A2,cooperative,"(7, 9)",5,move,"{'type': 'move', 'direction': 'S'}",moved_S,,13
+20,A1,aggressive,"(3, 9)",4,move,"{'type': 'move', 'direction': 'S'}",moved_S,,13
+20,A2,cooperative,"(7, 9)",6,collect,{'type': 'collect'},collected,,12
+20,A3,aggressive,"(6, 1)",6,collect,{'type': 'collect'},collected,,11
+20,A4,cooperative,"(8, 7)",3,move,"{'type': 'move', 'direction': 'S'}",moved_S,,11
+21,A3,aggressive,"(7, 1)",6,move,"{'type': 'move', 'direction': 'E'}",moved_E,,11
+21,A1,aggressive,"(2, 9)",4,move,"{'type': 'move', 'direction': 'W'}",moved_W,,11
+21,A2,cooperative,"(8, 9)",6,move,"{'type': 'move', 'direction': 'E'}",moved_E,,11
+21,A4,cooperative,"(8, 7)",4,collect,{'type': 'collect'},collected,,10
+22,A1,aggressive,"(3, 9)",4,move,"{'type': 'move', 'direction': 'E'}",moved_E,,10
+22,A3,aggressive,"(7, 1)",7,collect,{'type': 'collect'},collected,,9
+22,A2,cooperative,"(8, 9)",7,collect,{'type': 'collect'},collected,,8
+22,A4,cooperative,"(9, 7)",4,move,"{'type': 'move', 'direction': 'E'}",moved_E,,8
+23,A4,cooperative,"(9, 6)",4,move,"{'type': 'move', 'direction': 'N'}",moved_N,,8
+23,A2,cooperative,"(9, 9)",7,move,"{'type': 'move', 'direction': 'E'}",moved_E,,8
+23,A3,aggressive,"(8, 1)",7,move,"{'type': 'move', 'direction': 'E'}",moved_E,,8
+23,A1,aggressive,"(4, 9)",4,move,"{'type': 'move', 'direction': 'E'}",moved_E,,8
+24,A4,cooperative,"(9, 6)",5,collect,{'type': 'collect'},collected,,7
+24,A2,cooperative,"(9, 9)",8,collect,{'type': 'collect'},collected,,6
+24,A3,aggressive,"(8, 2)",7,move,"{'type': 'move', 'direction': 'S'}",moved_S,,6
+24,A1,aggressive,"(4, 8)",4,move,"{'type': 'move', 'direction': 'N'}",moved_N,,6
+25,A4,cooperative,"(9, 5)",5,move,"{'type': 'move', 'direction': 'N'}",moved_N,,6
+25,A1,aggressive,"(4, 9)",4,move,"{'type': 'move', 'direction': 'S'}",moved_S,,6
+25,A2,cooperative,"(8, 9)",8,move,"{'type': 'move', 'direction': 'W'}",moved_W,,6
+25,A3,aggressive,"(8, 2)",8,collect,{'type': 'collect'},collected,,5
+26,A1,aggressive,"(3, 9)",4,move,"{'type': 'move', 'direction': 'W'}",moved_W,,5
+26,A2,cooperative,"(8, 8)",8,move,"{'type': 'move', 'direction': 'N'}",moved_N,,5
+26,A3,aggressive,"(8, 1)",8,move,"{'type': 'move', 'direction': 'N'}",moved_N,,5
+26,A4,cooperative,"(9, 4)",5,move,"{'type': 'move', 'direction': 'N'}",moved_N,,5
+27,A2,cooperative,"(9, 8)",8,move,"{'type': 'move', 'direction': 'E'}",moved_E,,5
+27,A3,aggressive,"(8, 2)",8,move,"{'type': 'move', 'direction': 'S'}",moved_S,,5
+27,A1,aggressive,"(3, 8)",4,move,"{'type': 'move', 'direction': 'N'}",moved_N,,5
+27,A4,cooperative,"(9, 4)",5,move,"{'type': 'move', 'direction': 'E'}",move_blocked,,5
+28,A4,cooperative,"(9, 4)",5,move,"{'type': 'move', 'direction': 'E'}",move_blocked,,5
+28,A1,aggressive,"(3, 7)",4,move,"{'type': 'move', 'direction': 'N'}",moved_N,,5
+28,A2,cooperative,"(8, 8)",8,move,"{'type': 'move', 'direction': 'W'}",moved_W,,5
+28,A3,aggressive,"(8, 3)",8,move,"{'type': 'move', 'direction': 'S'}",moved_S,,5
+29,A3,aggressive,"(9, 3)",8,move,"{'type': 'move', 'direction': 'E'}",moved_E,,5
+29,A1,aggressive,"(2, 7)",4,move,"{'type': 'move', 'direction': 'W'}",moved_W,,5
+29,A2,cooperative,"(8, 9)",8,move,"{'type': 'move', 'direction': 'S'}",moved_S,,5
+29,A4,cooperative,"(9, 4)",8,raid,"{'type': 'raid', 'target_id': 'A3'}",raided_A3_stole_3,,5
+30,A1,aggressive,"(3, 7)",4,move,"{'type': 'move', 'direction': 'E'}",moved_E,,5
+30,A4,cooperative,"(9, 5)",8,move,"{'type': 'move', 'direction': 'S'}",moved_S,,5
+30,A2,cooperative,"(9, 9)",8,move,"{'type': 'move', 'direction': 'E'}",moved_E,,5
+30,A3,aggressive,"(8, 3)",5,move,"{'type': 'move', 'direction': 'W'}",moved_W,,5
+31,A1,aggressive,"(4, 7)",4,move,"{'type': 'move', 'direction': 'E'}",moved_E,,5
+31,A3,aggressive,"(8, 2)",5,move,"{'type': 'move', 'direction': 'N'}",moved_N,,5
+31,A2,cooperative,"(8, 9)",8,move,"{'type': 'move', 'direction': 'W'}",moved_W,,5
+31,A4,cooperative,"(9, 4)",8,move,"{'type': 'move', 'direction': 'N'}",moved_N,,5
+32,A4,cooperative,"(8, 4)",8,move,"{'type': 'move', 'direction': 'W'}",moved_W,,5
+32,A1,aggressive,"(4, 8)",4,move,"{'type': 'move', 'direction': 'S'}",moved_S,,5
+32,A2,cooperative,"(7, 9)",8,move,"{'type': 'move', 'direction': 'W'}",moved_W,,5
+32,A3,aggressive,"(9, 2)",5,move,"{'type': 'move', 'direction': 'E'}",moved_E,,5
+33,A4,cooperative,"(8, 3)",8,move,"{'type': 'move', 'direction': 'N'}",moved_N,,5
+33,A2,cooperative,"(6, 9)",8,move,"{'type': 'move', 'direction': 'W'}",moved_W,,5
+33,A1,aggressive,"(4, 7)",4,move,"{'type': 'move', 'direction': 'N'}",moved_N,,5
+33,A3,aggressive,"(9, 3)",5,move,"{'type': 'move', 'direction': 'S'}",moved_S,,5
+34,A2,cooperative,"(6, 8)",8,move,"{'type': 'move', 'direction': 'N'}",moved_N,,5
+34,A4,cooperative,"(7, 3)",8,move,"{'type': 'move', 'direction': 'W'}",moved_W,,5
+34,A3,aggressive,"(8, 3)",5,move,"{'type': 'move', 'direction': 'W'}",moved_W,,5
+34,A1,aggressive,"(4, 8)",4,move,"{'type': 'move', 'direction': 'S'}",moved_S,,5
+35,A3,aggressive,"(8, 3)",7,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_2,,5
+35,A1,aggressive,"(3, 8)",4,move,"{'type': 'move', 'direction': 'W'}",moved_W,,5
+35,A2,cooperative,"(6, 7)",8,move,"{'type': 'move', 'direction': 'N'}",moved_N,,5
+35,A4,cooperative,"(7, 3)",8,raid,"{'type': 'raid', 'target_id': 'A3'}",raided_A3_stole_2,,5
+36,A2,cooperative,"(6, 6)",8,move,"{'type': 'move', 'direction': 'N'}",moved_N,,5
+36,A3,aggressive,"(8, 3)",7,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_2,,5
+36,A1,aggressive,"(3, 7)",4,move,"{'type': 'move', 'direction': 'N'}",moved_N,,5
+36,A4,cooperative,"(7, 3)",8,raid,"{'type': 'raid', 'target_id': 'A3'}",raided_A3_stole_2,,5
+37,A1,aggressive,"(2, 7)",4,move,"{'type': 'move', 'direction': 'W'}",moved_W,,5
+37,A2,cooperative,"(7, 6)",8,move,"{'type': 'move', 'direction': 'E'}",moved_E,,5
+37,A4,cooperative,"(6, 3)",8,move,"{'type': 'move', 'direction': 'W'}",moved_W,,5
+37,A3,aggressive,"(7, 3)",5,move,"{'type': 'move', 'direction': 'W'}",moved_W,,5
+38,A2,cooperative,"(7, 7)",8,move,"{'type': 'move', 'direction': 'S'}",moved_S,,5
+38,A4,cooperative,"(5, 3)",8,move,"{'type': 'move', 'direction': 'W'}",moved_W,,5
+38,A3,aggressive,"(6, 3)",5,move,"{'type': 'move', 'direction': 'W'}",moved_W,,5
+38,A1,aggressive,"(2, 6)",4,move,"{'type': 'move', 'direction': 'N'}",moved_N,,5
+39,A2,cooperative,"(8, 7)",8,move,"{'type': 'move', 'direction': 'E'}",moved_E,,5
+39,A4,cooperative,"(5, 2)",8,move,"{'type': 'move', 'direction': 'N'}",moved_N,,5
+39,A1,aggressive,"(2, 7)",4,move,"{'type': 'move', 'direction': 'S'}",moved_S,,5
+39,A3,aggressive,"(5, 3)",5,move,"{'type': 'move', 'direction': 'W'}",moved_W,,5
+40,A4,cooperative,"(4, 2)",8,move,"{'type': 'move', 'direction': 'W'}",moved_W,,5
+40,A3,aggressive,"(5, 2)",5,move,"{'type': 'move', 'direction': 'N'}",moved_N,,5
+40,A2,cooperative,"(9, 7)",8,move,"{'type': 'move', 'direction': 'E'}",moved_E,,5
+40,A1,aggressive,"(2, 6)",4,move,"{'type': 'move', 'direction': 'N'}",moved_N,,5
+41,A3,aggressive,"(5, 2)",5,move,"{'type': 'move', 'direction': 'W'}",move_blocked,,5
+41,A2,cooperative,"(9, 6)",8,move,"{'type': 'move', 'direction': 'N'}",moved_N,,5
+41,A1,aggressive,"(1, 6)",4,move,"{'type': 'move', 'direction': 'W'}",moved_W,,5
+41,A4,cooperative,"(4, 1)",8,move,"{'type': 'move', 'direction': 'N'}",moved_N,,5
+42,A2,cooperative,"(8, 6)",8,move,"{'type': 'move', 'direction': 'W'}",moved_W,,5
+42,A1,aggressive,"(0, 6)",4,move,"{'type': 'move', 'direction': 'W'}",moved_W,,5
+42,A4,cooperative,"(4, 1)",9,collect,{'type': 'collect'},collected,,4
+42,A3,aggressive,"(4, 2)",5,move,"{'type': 'move', 'direction': 'W'}",moved_W,,4
+43,A2,cooperative,"(9, 6)",8,move,"{'type': 'move', 'direction': 'E'}",moved_E,,4
+43,A3,aggressive,"(3, 2)",5,move,"{'type': 'move', 'direction': 'W'}",moved_W,,4
+43,A1,aggressive,"(0, 7)",4,move,"{'type': 'move', 'direction': 'S'}",moved_S,,4
+43,A4,cooperative,"(3, 1)",9,move,"{'type': 'move', 'direction': 'W'}",moved_W,,4
+44,A3,aggressive,"(2, 2)",5,move,"{'type': 'move', 'direction': 'W'}",moved_W,,4
+44,A4,cooperative,"(3, 1)",10,collect,{'type': 'collect'},collected,,3
+44,A1,aggressive,"(0, 6)",4,move,"{'type': 'move', 'direction': 'N'}",moved_N,,3
+44,A2,cooperative,"(9, 6)",8,move,"{'type': 'move', 'direction': 'E'}",move_blocked,,3
+45,A1,aggressive,"(0, 6)",4,move,"{'type': 'move', 'direction': 'W'}",move_blocked,,3
+45,A2,cooperative,"(9, 6)",8,move,"{'type': 'move', 'direction': 'E'}",move_blocked,,3
+45,A3,aggressive,"(2, 2)",6,collect,{'type': 'collect'},collected,,2
+45,A4,cooperative,"(4, 1)",10,move,"{'type': 'move', 'direction': 'E'}",moved_E,,2
+46,A1,aggressive,"(0, 5)",4,move,"{'type': 'move', 'direction': 'N'}",moved_N,,2
+46,A2,cooperative,"(9, 7)",8,move,"{'type': 'move', 'direction': 'S'}",moved_S,,2
+46,A4,cooperative,"(4, 0)",10,move,"{'type': 'move', 'direction': 'N'}",moved_N,,2
+46,A3,aggressive,"(1, 2)",6,move,"{'type': 'move', 'direction': 'W'}",moved_W,,2
+47,A2,cooperative,"(9, 7)",8,move,"{'type': 'move', 'direction': 'E'}",move_blocked,,2
+47,A3,aggressive,"(0, 2)",6,move,"{'type': 'move', 'direction': 'W'}",moved_W,,2
+47,A4,cooperative,"(4, 0)",11,collect,{'type': 'collect'},collected,,1
+47,A1,aggressive,"(0, 5)",4,move,"{'type': 'move', 'direction': 'W'}",move_blocked,,1
+48,A3,aggressive,"(0, 1)",6,move,"{'type': 'move', 'direction': 'N'}",moved_N,,1
+48,A1,aggressive,"(0, 5)",4,move,"{'type': 'move', 'direction': 'W'}",move_blocked,,1
+48,A2,cooperative,"(9, 6)",8,move,"{'type': 'move', 'direction': 'N'}",moved_N,,1
+48,A4,cooperative,"(4, 0)",11,move,"{'type': 'move', 'direction': 'N'}",move_blocked,,1
+49,A1,aggressive,"(0, 6)",4,move,"{'type': 'move', 'direction': 'S'}",moved_S,,1
+49,A2,cooperative,"(9, 7)",8,move,"{'type': 'move', 'direction': 'S'}",moved_S,,1
+49,A3,aggressive,"(0, 1)",7,collect,{'type': 'collect'},collected,,0
+49,A4,cooperative,"(3, 0)",11,move,"{'type': 'move', 'direction': 'W'}",moved_W,,0

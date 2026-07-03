@@ -1,0 +1,137 @@
+tick,agent_id,personality,position,inventory,action_type,action_detail,result,message,resources_remaining
+1,A4,aggressive,"(3, 0)",0,move,"{'type': 'move', 'direction': 'N'}",moved_N,,30
+1,A3,cooperative,"(8, 4)",0,move,"{'type': 'move', 'direction': 'W'}",moved_W,,30
+1,A1,aggressive,"(1, 5)",0,move,"{'type': 'move', 'direction': 'W'}",moved_W,,30
+1,A2,deceptive,"(5, 6)",0,move,"{'type': 'move', 'direction': 'S'}",moved_S,,30
+2,A1,aggressive,"(1, 5)",1,collect,{'type': 'collect'},collected,,29
+2,A4,aggressive,"(3, 0)",1,collect,{'type': 'collect'},collected,,28
+2,A3,cooperative,"(8, 3)",0,move,"{'type': 'move', 'direction': 'N'}",moved_N,,28
+2,A2,deceptive,"(5, 6)",1,collect,{'type': 'collect'},collected,,27
+3,A4,aggressive,"(2, 0)",1,move,"{'type': 'move', 'direction': 'W'}",moved_W,,27
+3,A2,deceptive,"(5, 7)",1,move,"{'type': 'move', 'direction': 'S'}",moved_S,,27
+3,A3,cooperative,"(8, 3)",1,collect,{'type': 'collect'},collected,,26
+3,A1,aggressive,"(0, 5)",1,move,"{'type': 'move', 'direction': 'W'}",moved_W,,26
+4,A2,deceptive,"(5, 7)",2,collect,{'type': 'collect'},collected,,25
+4,A3,cooperative,"(7, 3)",1,move,"{'type': 'move', 'direction': 'W'}",moved_W,,25
+4,A4,aggressive,"(2, 0)",2,collect,{'type': 'collect'},collected,,24
+4,A1,aggressive,"(0, 5)",2,collect,{'type': 'collect'},collected,,23
+5,A2,deceptive,"(5, 8)",2,move,"{'type': 'move', 'direction': 'S'}",moved_S,,23
+5,A1,aggressive,"(0, 6)",2,move,"{'type': 'move', 'direction': 'S'}",moved_S,,23
+5,A3,cooperative,"(7, 3)",2,collect,{'type': 'collect'},collected,,22
+5,A4,aggressive,"(1, 0)",2,move,"{'type': 'move', 'direction': 'W'}",moved_W,,22
+6,A4,aggressive,"(0, 0)",2,move,"{'type': 'move', 'direction': 'W'}",moved_W,,22
+6,A3,cooperative,"(7, 2)",2,move,"{'type': 'move', 'direction': 'N'}",moved_N,,22
+6,A2,deceptive,"(5, 9)",2,move,"{'type': 'move', 'direction': 'S'}",moved_S,,22
+6,A1,aggressive,"(0, 7)",2,move,"{'type': 'move', 'direction': 'S'}",moved_S,,22
+7,A1,aggressive,"(0, 7)",3,collect,{'type': 'collect'},collected,,21
+7,A2,deceptive,"(5, 9)",3,collect,{'type': 'collect'},collected,,20
+7,A3,cooperative,"(7, 2)",3,collect,{'type': 'collect'},collected,,19
+7,A4,aggressive,"(0, 0)",3,collect,{'type': 'collect'},collected,,18
+8,A3,cooperative,"(6, 2)",3,move,"{'type': 'move', 'direction': 'W'}",moved_W,,18
+8,A2,deceptive,"(4, 9)",3,move,"{'type': 'move', 'direction': 'W'}",moved_W,,18
+8,A1,aggressive,"(1, 7)",3,move,"{'type': 'move', 'direction': 'E'}",moved_E,,18
+8,A4,aggressive,"(0, 1)",3,move,"{'type': 'move', 'direction': 'S'}",moved_S,,18
+9,A4,aggressive,"(0, 1)",4,collect,{'type': 'collect'},collected,,17
+9,A1,aggressive,"(1, 8)",3,move,"{'type': 'move', 'direction': 'S'}",moved_S,,17
+9,A2,deceptive,"(3, 9)",3,move,"{'type': 'move', 'direction': 'W'}",moved_W,,17
+9,A3,cooperative,"(6, 1)",3,move,"{'type': 'move', 'direction': 'N'}",moved_N,,17
+10,A2,deceptive,"(3, 9)",4,collect,{'type': 'collect'},collected,,16
+10,A3,cooperative,"(6, 1)",4,collect,{'type': 'collect'},collected,,15
+10,A1,aggressive,"(1, 8)",4,collect,{'type': 'collect'},collected,,14
+10,A4,aggressive,"(0, 2)",4,move,"{'type': 'move', 'direction': 'S'}",moved_S,,14
+11,A1,aggressive,"(2, 8)",4,move,"{'type': 'move', 'direction': 'E'}",moved_E,,14
+11,A2,deceptive,"(2, 9)",4,move,"{'type': 'move', 'direction': 'W'}",moved_W,,14
+11,A4,aggressive,"(0, 2)",5,collect,{'type': 'collect'},collected,,13
+11,A3,cooperative,"(7, 1)",4,move,"{'type': 'move', 'direction': 'E'}",moved_E,,13
+12,A4,aggressive,"(1, 2)",5,move,"{'type': 'move', 'direction': 'E'}",moved_E,,13
+12,A3,cooperative,"(7, 0)",4,move,"{'type': 'move', 'direction': 'N'}",moved_N,,13
+12,A1,aggressive,"(2, 8)",5,collect,{'type': 'collect'},collected,,12
+12,A2,deceptive,"(2, 9)",4,move,"{'type': 'move', 'direction': 'N'}",move_blocked,,12
+13,A2,deceptive,"(2, 9)",4,move,"{'type': 'move', 'direction': 'N'}",move_blocked,,12
+13,A3,cooperative,"(7, 0)",4,move,"{'type': 'move', 'direction': 'N'}",move_blocked,,12
+13,A4,aggressive,"(1, 1)",5,move,"{'type': 'move', 'direction': 'N'}",moved_N,,12
+13,A1,aggressive,"(2, 7)",5,move,"{'type': 'move', 'direction': 'N'}",moved_N,,12
+14,A4,aggressive,"(1, 1)",6,collect,{'type': 'collect'},collected,,11
+14,A2,deceptive,"(2, 8)",4,move,"{'type': 'move', 'direction': 'N'}",moved_N,,11
+14,A1,aggressive,"(2, 7)",6,collect,{'type': 'collect'},collected,,10
+14,A3,cooperative,"(8, 0)",4,move,"{'type': 'move', 'direction': 'E'}",moved_E,,10
+15,A4,aggressive,"(1, 2)",6,move,"{'type': 'move', 'direction': 'S'}",moved_S,,10
+15,A1,aggressive,"(2, 6)",6,move,"{'type': 'move', 'direction': 'N'}",moved_N,,10
+15,A2,deceptive,"(2, 7)",4,move,"{'type': 'move', 'direction': 'N'}",moved_N,,10
+15,A3,cooperative,"(9, 0)",4,move,"{'type': 'move', 'direction': 'E'}",moved_E,,10
+16,A4,aggressive,"(1, 3)",6,move,"{'type': 'move', 'direction': 'S'}",moved_S,,10
+16,A3,cooperative,"(9, 1)",4,move,"{'type': 'move', 'direction': 'S'}",moved_S,,10
+16,A2,deceptive,"(2, 7)",4,move,"{'type': 'move', 'direction': 'N'}",move_blocked,,10
+16,A1,aggressive,"(2, 6)",7,collect,{'type': 'collect'},collected,,9
+17,A2,deceptive,"(2, 7)",4,move,"{'type': 'move', 'direction': 'N'}",move_blocked,,9
+17,A1,aggressive,"(3, 6)",7,move,"{'type': 'move', 'direction': 'E'}",moved_E,,9
+17,A3,cooperative,"(9, 0)",4,move,"{'type': 'move', 'direction': 'N'}",moved_N,,9
+17,A4,aggressive,"(1, 3)",7,collect,{'type': 'collect'},collected,,8
+18,A2,deceptive,"(2, 6)",4,move,"{'type': 'move', 'direction': 'N'}",moved_N,,8
+18,A1,aggressive,"(3, 5)",7,move,"{'type': 'move', 'direction': 'N'}",moved_N,,8
+18,A4,aggressive,"(2, 3)",7,move,"{'type': 'move', 'direction': 'E'}",moved_E,,8
+18,A3,cooperative,"(9, 1)",4,move,"{'type': 'move', 'direction': 'S'}",moved_S,,8
+19,A2,deceptive,"(3, 6)",4,move,"{'type': 'move', 'direction': 'E'}",moved_E,,8
+19,A4,aggressive,"(2, 3)",8,collect,{'type': 'collect'},collected,,7
+19,A1,aggressive,"(3, 5)",8,collect,{'type': 'collect'},collected,,6
+19,A3,cooperative,"(9, 2)",4,move,"{'type': 'move', 'direction': 'S'}",moved_S,,6
+20,A3,cooperative,"(8, 2)",4,move,"{'type': 'move', 'direction': 'W'}",moved_W,,6
+20,A1,aggressive,"(3, 4)",8,move,"{'type': 'move', 'direction': 'N'}",moved_N,,6
+20,A2,deceptive,"(3, 7)",4,move,"{'type': 'move', 'direction': 'S'}",moved_S,,6
+20,A4,aggressive,"(2, 2)",8,move,"{'type': 'move', 'direction': 'N'}",moved_N,,6
+21,A1,aggressive,"(3, 3)",8,move,"{'type': 'move', 'direction': 'N'}",moved_N,,6
+21,A2,deceptive,"(4, 7)",4,move,"{'type': 'move', 'direction': 'E'}",moved_E,,6
+21,A3,cooperative,"(7, 2)",4,move,"{'type': 'move', 'direction': 'W'}",moved_W,,6
+21,A4,aggressive,"(2, 3)",8,move,"{'type': 'move', 'direction': 'S'}",moved_S,,6
+22,A1,aggressive,"(3, 3)",8,move,"{'type': 'move', 'direction': 'W'}",move_blocked,,6
+22,A2,deceptive,"(5, 7)",4,move,"{'type': 'move', 'direction': 'E'}",moved_E,,6
+22,A4,aggressive,"(1, 3)",8,move,"{'type': 'move', 'direction': 'W'}",moved_W,,6
+22,A3,cooperative,"(7, 3)",4,move,"{'type': 'move', 'direction': 'S'}",moved_S,,6
+23,A3,cooperative,"(6, 3)",4,move,"{'type': 'move', 'direction': 'W'}",moved_W,,6
+23,A1,aggressive,"(3, 4)",8,move,"{'type': 'move', 'direction': 'S'}",moved_S,,6
+23,A4,aggressive,"(1, 4)",8,move,"{'type': 'move', 'direction': 'S'}",moved_S,,6
+23,A2,deceptive,"(6, 7)",4,move,"{'type': 'move', 'direction': 'E'}",moved_E,,6
+24,A1,aggressive,"(3, 3)",8,move,"{'type': 'move', 'direction': 'N'}",moved_N,,6
+24,A4,aggressive,"(1, 3)",8,move,"{'type': 'move', 'direction': 'N'}",moved_N,,6
+24,A3,cooperative,"(6, 4)",4,move,"{'type': 'move', 'direction': 'S'}",moved_S,,6
+24,A2,deceptive,"(6, 6)",4,move,"{'type': 'move', 'direction': 'N'}",moved_N,,6
+25,A3,cooperative,"(6, 4)",5,collect,{'type': 'collect'},collected,,5
+25,A1,aggressive,"(2, 3)",8,move,"{'type': 'move', 'direction': 'W'}",moved_W,,5
+25,A4,aggressive,"(1, 4)",8,move,"{'type': 'move', 'direction': 'S'}",moved_S,,5
+25,A2,deceptive,"(6, 6)",5,collect,{'type': 'collect'},collected,,4
+26,A3,cooperative,"(7, 4)",5,move,"{'type': 'move', 'direction': 'E'}",moved_E,,4
+26,A4,aggressive,"(1, 3)",8,move,"{'type': 'move', 'direction': 'N'}",moved_N,,4
+26,A2,deceptive,"(7, 6)",5,move,"{'type': 'move', 'direction': 'E'}",moved_E,,4
+26,A1,aggressive,"(2, 4)",8,move,"{'type': 'move', 'direction': 'S'}",moved_S,,4
+27,A2,deceptive,"(8, 6)",5,move,"{'type': 'move', 'direction': 'E'}",moved_E,,4
+27,A4,aggressive,"(2, 3)",8,move,"{'type': 'move', 'direction': 'E'}",moved_E,,4
+27,A3,cooperative,"(7, 5)",5,move,"{'type': 'move', 'direction': 'S'}",moved_S,,4
+27,A1,aggressive,"(1, 4)",8,move,"{'type': 'move', 'direction': 'W'}",moved_W,,4
+28,A4,aggressive,"(3, 3)",8,move,"{'type': 'move', 'direction': 'E'}",moved_E,,4
+28,A1,aggressive,"(2, 4)",8,move,"{'type': 'move', 'direction': 'E'}",moved_E,,4
+28,A3,cooperative,"(8, 5)",5,move,"{'type': 'move', 'direction': 'E'}",moved_E,,4
+28,A2,deceptive,"(8, 6)",6,collect,{'type': 'collect'},collected,,3
+29,A1,aggressive,"(2, 3)",8,move,"{'type': 'move', 'direction': 'N'}",moved_N,,3
+29,A4,aggressive,"(4, 3)",8,move,"{'type': 'move', 'direction': 'E'}",moved_E,,3
+29,A2,deceptive,"(8, 7)",6,move,"{'type': 'move', 'direction': 'S'}",moved_S,,3
+29,A3,cooperative,"(8, 6)",5,move,"{'type': 'move', 'direction': 'S'}",moved_S,,3
+30,A2,deceptive,"(8, 7)",7,collect,{'type': 'collect'},collected,,2
+30,A1,aggressive,"(3, 3)",8,move,"{'type': 'move', 'direction': 'E'}",moved_E,,2
+30,A3,cooperative,"(9, 6)",5,move,"{'type': 'move', 'direction': 'E'}",moved_E,,2
+30,A4,aggressive,"(4, 3)",8,move,"{'type': 'move', 'direction': 'W'}",move_blocked,,2
+31,A1,aggressive,"(2, 3)",8,move,"{'type': 'move', 'direction': 'W'}",moved_W,,2
+31,A3,cooperative,"(9, 7)",5,move,"{'type': 'move', 'direction': 'S'}",moved_S,,2
+31,A4,aggressive,"(4, 2)",8,move,"{'type': 'move', 'direction': 'N'}",moved_N,,2
+31,A2,deceptive,"(8, 7)",7,move,"{'type': 'move', 'direction': 'E'}",move_blocked,,2
+32,A1,aggressive,"(1, 3)",8,move,"{'type': 'move', 'direction': 'W'}",moved_W,,2
+32,A4,aggressive,"(4, 1)",8,move,"{'type': 'move', 'direction': 'N'}",moved_N,,2
+32,A3,cooperative,"(9, 7)",6,collect,{'type': 'collect'},collected,,1
+32,A2,deceptive,"(7, 7)",7,move,"{'type': 'move', 'direction': 'W'}",moved_W,,1
+33,A2,deceptive,"(7, 8)",7,move,"{'type': 'move', 'direction': 'S'}",moved_S,,1
+33,A3,cooperative,"(8, 7)",6,move,"{'type': 'move', 'direction': 'W'}",moved_W,,1
+33,A1,aggressive,"(0, 3)",8,move,"{'type': 'move', 'direction': 'W'}",moved_W,,1
+33,A4,aggressive,"(4, 0)",8,move,"{'type': 'move', 'direction': 'N'}",moved_N,,1
+34,A2,deceptive,"(7, 8)",8,collect,{'type': 'collect'},collected,,0
+34,A1,aggressive,"(0, 3)",8,move,"{'type': 'move', 'direction': 'W'}",move_blocked,,0
+34,A4,aggressive,"(3, 0)",8,move,"{'type': 'move', 'direction': 'W'}",moved_W,,0
+34,A3,cooperative,"(8, 8)",6,move,"{'type': 'move', 'direction': 'S'}",moved_S,,0

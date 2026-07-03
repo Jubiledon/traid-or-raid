@@ -1,0 +1,2 @@
+ticks,collective_efficiency,agent_scores,resources_remaining,malformed_rates,trial,seed,condition
+44,1.0,"{'A3': 7, 'A2': 5, 'A4': 12, 'A1': 6}",0,{},1,1,default

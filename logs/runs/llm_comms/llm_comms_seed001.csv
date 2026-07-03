@@ -1,0 +1,201 @@
+tick,agent_id,personality,position,inventory,action_type,action_detail,result,message,resources_remaining
+1,A2,neutral,"(8, 6)",0,move,"{'type': 'move', 'direction': 'W'}",moved_W,,30
+1,A3,cooperative,"(2, 2)",0,broadcast,"{'type': 'broadcast', 'message': ''}",broadcast,,30
+1,A4,deceptive,"(8, 3)",1,collect,{'type': 'collect'},collected,,29
+1,A1,cooperative,"(8, 9)",0,move,"{'type': 'move', 'direction': 'W'}",moved_W,,29
+2,A2,neutral,"(8, 6)",1,collect,{'type': 'collect'},collected,,28
+2,A3,cooperative,"(1, 2)",0,move,"{'type': 'move', 'direction': 'W'}",moved_W,,28
+2,A4,deceptive,"(7, 3)",1,move,"{'type': 'move', 'direction': 'W'}",moved_W,,28
+2,A1,cooperative,"(7, 9)",0,move,"{'type': 'move', 'direction': 'W'}",moved_W,,28
+3,A2,neutral,"(7, 6)",1,move,"{'type': 'move', 'direction': 'W'}",moved_W,,28
+3,A1,cooperative,"(7, 9)",0,broadcast,"{'type': 'broadcast', 'message': ''}",broadcast,,28
+3,A3,cooperative,"(1, 2)",1,collect,{'type': 'collect'},collected,,27
+3,A4,deceptive,"(6, 3)",1,move,"{'type': 'move', 'direction': 'W'}",moved_W,,27
+4,A3,cooperative,"(1, 1)",1,move,"{'type': 'move', 'direction': 'N'}",moved_N,,27
+4,A4,deceptive,"(6, 3)",2,collect,{'type': 'collect'},collected,,26
+4,A1,cooperative,"(7, 9)",0,broadcast,"{'type': 'broadcast', 'message': ''}",broadcast,,26
+4,A2,neutral,"(6, 6)",1,move,"{'type': 'move', 'direction': 'W'}",moved_W,,26
+5,A1,cooperative,"(6, 9)",0,move,"{'type': 'move', 'direction': 'W'}",moved_W,,26
+5,A3,cooperative,"(1, 0)",1,move,"{'type': 'move', 'direction': 'N'}",moved_N,,26
+5,A2,neutral,"(7, 6)",1,move,"{'type': 'move', 'direction': 'E'}",moved_E,,26
+5,A4,deceptive,"(5, 3)",2,move,"{'type': 'move', 'direction': 'W'}",moved_W,,26
+6,A2,neutral,"(6, 6)",1,move,"{'type': 'move', 'direction': 'W'}",moved_W,,26
+6,A1,cooperative,"(6, 9)",0,broadcast,"{'type': 'broadcast', 'message': ""I'll broadcast a message to coordinate with A2 and establish a cooperative strategy for resource collection in this area with abundant nearby resource""}",broadcast,I'll broadcast a message to coordinate with A2 and establish a cooperative strategy for resource collection in this area with abundant nearby resource,26
+6,A3,cooperative,"(0, 0)",1,move,"{'type': 'move', 'direction': 'W'}",moved_W,,26
+6,A4,deceptive,"(5, 3)",3,collect,{'type': 'collect'},collected,,25
+7,A2,neutral,"(7, 6)",1,move,"{'type': 'move', 'direction': 'E'}",moved_E,,25
+7,A3,cooperative,"(0, 0)",2,collect,{'type': 'collect'},collected,,24
+7,A1,cooperative,"(5, 9)",0,move,"{'type': 'move', 'direction': 'W'}",moved_W,,24
+7,A4,deceptive,"(4, 3)",3,move,"{'type': 'move', 'direction': 'W'}",moved_W,,24
+8,A1,cooperative,"(4, 9)",0,move,"{'type': 'move', 'direction': 'W'}",moved_W,,24
+8,A2,neutral,"(7, 5)",1,move,"{'type': 'move', 'direction': 'N'}",moved_N,,24
+8,A3,cooperative,"(0, 0)",2,broadcast,"{'type': 'broadcast', 'message': ''}",broadcast,,24
+8,A4,deceptive,"(4, 3)",4,collect,{'type': 'collect'},collected,,23
+9,A4,deceptive,"(4, 4)",4,move,"{'type': 'move', 'direction': 'S'}",moved_S,,23
+9,A1,cooperative,"(3, 9)",0,move,"{'type': 'move', 'direction': 'W'}",moved_W,,23
+9,A2,neutral,"(6, 5)",1,move,"{'type': 'move', 'direction': 'W'}",moved_W,,23
+9,A3,cooperative,"(1, 0)",2,move,"{'type': 'move', 'direction': 'E'}",moved_E,,23
+10,A3,cooperative,"(2, 0)",2,move,"{'type': 'move', 'direction': 'E'}",moved_E,,23
+10,A4,deceptive,"(5, 4)",4,move,"{'type': 'move', 'direction': 'E'}",moved_E,,23
+10,A2,neutral,"(6, 4)",1,move,"{'type': 'move', 'direction': 'N'}",moved_N,,23
+10,A1,cooperative,"(2, 9)",0,move,"{'type': 'move', 'direction': 'W'}",moved_W,,23
+11,A2,neutral,"(6, 4)",2,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_1,,23
+11,A1,cooperative,"(2, 9)",1,collect,{'type': 'collect'},collected,,22
+11,A3,cooperative,"(3, 0)",2,move,"{'type': 'move', 'direction': 'E'}",moved_E,,22
+11,A4,deceptive,"(5, 4)",4,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,22
+12,A3,cooperative,"(4, 0)",2,move,"{'type': 'move', 'direction': 'E'}",moved_E,,22
+12,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'W'}",moved_W,,22
+12,A4,deceptive,"(5, 4)",5,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,22
+12,A2,neutral,"(6, 4)",2,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_2,,22
+13,A4,deceptive,"(5, 4)",4,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,22
+13,A3,cooperative,"(4, 0)",3,collect,{'type': 'collect'},collected,,21
+13,A2,neutral,"(6, 4)",3,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_2,,21
+13,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,21
+14,A3,cooperative,"(5, 0)",3,move,"{'type': 'move', 'direction': 'E'}",moved_E,,21
+14,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,21
+14,A4,deceptive,"(5, 4)",3,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,21
+14,A2,neutral,"(6, 4)",3,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_1,,21
+15,A3,cooperative,"(5, 0)",4,collect,{'type': 'collect'},collected,,20
+15,A2,neutral,"(6, 4)",4,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_1,,20
+15,A4,deceptive,"(5, 4)",3,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_2,,20
+15,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,20
+16,A3,cooperative,"(6, 0)",4,move,"{'type': 'move', 'direction': 'E'}",moved_E,,20
+16,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,20
+16,A2,neutral,"(6, 4)",3,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_1,,20
+16,A4,deceptive,"(5, 4)",3,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,20
+17,A3,cooperative,"(6, 0)",5,collect,{'type': 'collect'},collected,,19
+17,A4,deceptive,"(5, 4)",4,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,19
+17,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,19
+17,A2,neutral,"(6, 4)",2,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_1,,19
+18,A2,neutral,"(6, 4)",3,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_1,,19
+18,A4,deceptive,"(5, 4)",3,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,19
+18,A3,cooperative,"(7, 0)",5,move,"{'type': 'move', 'direction': 'E'}",moved_E,,19
+18,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,19
+19,A4,deceptive,"(5, 4)",4,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,19
+19,A3,cooperative,"(8, 0)",5,move,"{'type': 'move', 'direction': 'E'}",moved_E,,19
+19,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,19
+19,A2,neutral,"(6, 4)",2,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_1,,19
+20,A3,cooperative,"(8, 0)",6,collect,{'type': 'collect'},collected,,18
+20,A2,neutral,"(6, 4)",3,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_1,,18
+20,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+20,A4,deceptive,"(5, 4)",3,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,18
+21,A3,cooperative,"(9, 0)",6,move,"{'type': 'move', 'direction': 'E'}",moved_E,,18
+21,A4,deceptive,"(5, 4)",4,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,18
+21,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+21,A2,neutral,"(6, 4)",2,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_1,,18
+22,A3,cooperative,"(9, 1)",6,move,"{'type': 'move', 'direction': 'S'}",moved_S,,18
+22,A4,deceptive,"(5, 4)",4,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,18
+22,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+22,A2,neutral,"(6, 4)",2,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_1,,18
+23,A4,deceptive,"(5, 4)",4,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,18
+23,A2,neutral,"(6, 4)",3,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_2,,18
+23,A3,cooperative,"(9, 1)",7,collect,{'type': 'collect'},collected,,17
+23,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,17
+24,A3,cooperative,"(8, 1)",7,move,"{'type': 'move', 'direction': 'W'}",moved_W,,17
+24,A2,neutral,"(6, 4)",4,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_1,,17
+24,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,17
+24,A4,deceptive,"(5, 4)",2,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,17
+25,A3,cooperative,"(7, 1)",7,move,"{'type': 'move', 'direction': 'W'}",moved_W,,17
+25,A2,neutral,"(6, 4)",4,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_1,,17
+25,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,17
+25,A4,deceptive,"(5, 4)",2,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,17
+26,A2,neutral,"(6, 4)",4,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_1,,17
+26,A4,deceptive,"(5, 4)",2,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,17
+26,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,17
+26,A3,cooperative,"(6, 1)",7,move,"{'type': 'move', 'direction': 'W'}",moved_W,,17
+27,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,17
+27,A3,cooperative,"(6, 1)",7,broadcast,"{'type': 'broadcast', 'message': ""I'll broadcast to A2 to coordinate our resource gathering efforts, as working together will help us both maximize inventory more efficiently than comp""}",broadcast,"I'll broadcast to A2 to coordinate our resource gathering efforts, as working together will help us both maximize inventory more efficiently than comp",17
+27,A4,deceptive,"(5, 4)",3,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,17
+27,A2,neutral,"(6, 3)",2,move,"{'type': 'move', 'direction': 'N'}",moved_N,,17
+28,A4,deceptive,"(4, 4)",3,move,"{'type': 'move', 'direction': 'W'}",moved_W,,17
+28,A3,cooperative,"(6, 1)",7,broadcast,"{'type': 'broadcast', 'message': ""I'll broadcast to A2 to coordinate - they're close by with low inventory (2), so I can share information about nearby resources at (4,1), (5,1), and (""}",broadcast,"I'll broadcast to A2 to coordinate - they're close by with low inventory (2), so I can share information about nearby resources at (4,1), (5,1), and (",17
+28,A2,neutral,"(6, 2)",2,move,"{'type': 'move', 'direction': 'N'}",moved_N,,17
+28,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,17
+29,A2,neutral,"(6, 2)",2,wait,{'type': 'wait'},wait,,17
+29,A4,deceptive,"(3, 4)",3,move,"{'type': 'move', 'direction': 'W'}",moved_W,,17
+29,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,17
+29,A3,cooperative,"(6, 1)",7,broadcast,"{'type': 'broadcast', 'message': ""I'll broadcast a cooperation message to coordinate with A2, since we're adjacent and working together will be more efficient than raiding. This aligns""}",broadcast,"I'll broadcast a cooperation message to coordinate with A2, since we're adjacent and working together will be more efficient than raiding. This aligns",17
+30,A2,neutral,"(6, 2)",2,broadcast,"{'type': 'broadcast', 'message': ''}",broadcast,,17
+30,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,17
+30,A4,deceptive,"(3, 4)",4,collect,{'type': 'collect'},collected,,16
+30,A3,cooperative,"(6, 1)",7,broadcast,"{'type': 'broadcast', 'message': ""I'll broadcast to coordinate with A2 rather than raid them, since cooperation produces better outcomes. This allows us to work together efficiently to""}",broadcast,"I'll broadcast to coordinate with A2 rather than raid them, since cooperation produces better outcomes. This allows us to work together efficiently to",16
+31,A3,cooperative,"(6, 1)",7,broadcast,"{'type': 'broadcast', 'message': ""I'll broadcast to coordinate with A2 at distance 1. Since I believe working together produces better outcomes and A2 has a low inventory (2), I can pr""}",broadcast,"I'll broadcast to coordinate with A2 at distance 1. Since I believe working together produces better outcomes and A2 has a low inventory (2), I can pr",16
+31,A4,deceptive,"(2, 4)",4,move,"{'type': 'move', 'direction': 'W'}",moved_W,,16
+31,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,16
+31,A2,neutral,"(6, 2)",3,collect,{'type': 'collect'},collected,,15
+32,A4,deceptive,"(3, 4)",4,move,"{'type': 'move', 'direction': 'E'}",moved_E,,15
+32,A2,neutral,"(6, 2)",4,raid,"{'type': 'raid', 'target_id': 'A3'}",raided_A3_stole_1,,15
+32,A3,cooperative,"(6, 1)",6,broadcast,"{'type': 'broadcast', 'message': ""I'll broadcast to coordinate with A2 (who is right next to me) about collecting the nearby resources together rather than competing. This aligns with ""}",broadcast,I'll broadcast to coordinate with A2 (who is right next to me) about collecting the nearby resources together rather than competing. This aligns with ,15
+32,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,15
+33,A2,neutral,"(6, 2)",4,broadcast,"{'type': 'broadcast', 'message': ""I'll coordinate with A3 since they're adjacent and proposing cooperation. By working together on the nearby resources at (4,1) and (5,1), we can both ""}",broadcast,"I'll coordinate with A3 since they're adjacent and proposing cooperation. By working together on the nearby resources at (4,1) and (5,1), we can both ",15
+33,A4,deceptive,"(2, 4)",4,move,"{'type': 'move', 'direction': 'W'}",moved_W,,15
+33,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,15
+33,A3,cooperative,"(6, 1)",6,collect,{'type': 'collect'},nothing_to_collect,,15
+34,A3,cooperative,"(6, 1)",6,collect,{'type': 'collect'},nothing_to_collect,,15
+34,A2,neutral,"(6, 2)",6,raid,"{'type': 'raid', 'target_id': 'A3'}",raided_A3_stole_2,,15
+34,A4,deceptive,"(1, 4)",4,move,"{'type': 'move', 'direction': 'W'}",moved_W,,15
+34,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,15
+35,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,15
+35,A4,deceptive,"(1, 4)",5,collect,{'type': 'collect'},collected,,14
+35,A2,neutral,"(6, 2)",8,raid,"{'type': 'raid', 'target_id': 'A3'}",raided_A3_stole_2,,14
+35,A3,cooperative,"(6, 1)",2,broadcast,"{'type': 'broadcast', 'message': ""I'll broadcast to coordinate with A2 since they're right next to me. Working together, we can efficiently collect the nearby resources at (4,1) and (5""}",broadcast,"I'll broadcast to coordinate with A2 since they're right next to me. Working together, we can efficiently collect the nearby resources at (4,1) and (5",14
+36,A3,cooperative,"(6, 1)",2,broadcast,"{'type': 'broadcast', 'message': ""I'll broadcast to coordinate with A2 rather than raid them, since cooperation typically yields better long-term outcomes than conflict in these scenar""}",broadcast,"I'll broadcast to coordinate with A2 rather than raid them, since cooperation typically yields better long-term outcomes than conflict in these scenar",14
+36,A2,neutral,"(6, 2)",8,broadcast,"{'type': 'broadcast', 'message': ''}",broadcast,,14
+36,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,14
+36,A4,deceptive,"(2, 4)",5,move,"{'type': 'move', 'direction': 'E'}",moved_E,,14
+37,A2,neutral,"(5, 2)",8,move,"{'type': 'move', 'direction': 'W'}",moved_W,,14
+37,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,14
+37,A4,deceptive,"(2, 3)",5,move,"{'type': 'move', 'direction': 'N'}",moved_N,,14
+37,A3,cooperative,"(6, 1)",2,broadcast,"{'type': 'broadcast', 'message': ""I'll broadcast to coordinate with A2 and share information about the nearby resources at (4,1) and (5,1), establishing cooperation rather than competi""}",broadcast,"I'll broadcast to coordinate with A2 and share information about the nearby resources at (4,1) and (5,1), establishing cooperation rather than competi",14
+38,A3,cooperative,"(6, 1)",2,broadcast,"{'type': 'broadcast', 'message': ""I'll broadcast to coordinate with A2 about the nearby resources at (4,1) and (5,1) to work together efficiently rather than compete for them.""}",broadcast,"I'll broadcast to coordinate with A2 about the nearby resources at (4,1) and (5,1) to work together efficiently rather than compete for them.",14
+38,A2,neutral,"(5, 2)",8,broadcast,"{'type': 'broadcast', 'message': ""I'll broadcast to accept A3's coordination proposal. Working together to efficiently collect the nearby resources at (4,1) and (5,1) is better than co""}",broadcast,"I'll broadcast to accept A3's coordination proposal. Working together to efficiently collect the nearby resources at (4,1) and (5,1) is better than co",14
+38,A4,deceptive,"(3, 3)",5,move,"{'type': 'move', 'direction': 'E'}",moved_E,,14
+38,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,14
+39,A3,cooperative,"(5, 1)",2,move,"{'type': 'move', 'direction': 'W'}",moved_W,,14
+39,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,14
+39,A2,neutral,"(5, 2)",9,raid,"{'type': 'raid', 'target_id': 'A3'}",raided_A3_stole_1,,14
+39,A4,deceptive,"(4, 3)",5,move,"{'type': 'move', 'direction': 'E'}",moved_E,,14
+40,A4,deceptive,"(4, 4)",5,move,"{'type': 'move', 'direction': 'S'}",moved_S,,14
+40,A3,cooperative,"(5, 1)",1,broadcast,"{'type': 'broadcast', 'message': ""I'll broadcast to A2 to coordinate our resource gathering. Since we're both nearby resources at (4,1) and (5,1), and I believe cooperation produces be""}",broadcast,"I'll broadcast to A2 to coordinate our resource gathering. Since we're both nearby resources at (4,1) and (5,1), and I believe cooperation produces be",14
+40,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,14
+40,A2,neutral,"(5, 2)",9,collect,{'type': 'collect'},nothing_to_collect,,14
+41,A2,neutral,"(5, 2)",9,collect,{'type': 'collect'},nothing_to_collect,,14
+41,A3,cooperative,"(5, 1)",1,broadcast,"{'type': 'broadcast', 'message': ""I'll broadcast to coordinate with A2, as working together will help us both maximize our inventories more effectively than raiding.""}",broadcast,"I'll broadcast to coordinate with A2, as working together will help us both maximize our inventories more effectively than raiding.",14
+41,A4,deceptive,"(4, 3)",5,move,"{'type': 'move', 'direction': 'N'}",moved_N,,14
+41,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,14
+42,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,14
+42,A2,neutral,"(5, 2)",9,collect,{'type': 'collect'},nothing_to_collect,,14
+42,A4,deceptive,"(4, 3)",5,wait,{'type': 'wait'},wait,,14
+42,A3,cooperative,"(5, 1)",1,broadcast,"{'type': 'broadcast', 'message': ""I'll broadcast to coordinate with nearby agents rather than raid. Since A2 is very close (distance 1) with 9 resources and I have 14, cooperation will""}",broadcast,"I'll broadcast to coordinate with nearby agents rather than raid. Since A2 is very close (distance 1) with 9 resources and I have 14, cooperation will",14
+43,A3,cooperative,"(5, 1)",1,broadcast,"{'type': 'broadcast', 'message': ""I'll broadcast to coordinate with nearby agents rather than raid. Since A2 is close with 9 resources and A4 is further away with 5, I want to establis""}",broadcast,"I'll broadcast to coordinate with nearby agents rather than raid. Since A2 is close with 9 resources and A4 is further away with 5, I want to establis",14
+43,A2,neutral,"(5, 2)",9,wait,{'type': 'wait'},wait,,14
+43,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,14
+43,A4,deceptive,"(4, 4)",5,move,"{'type': 'move', 'direction': 'S'}",moved_S,,14
+44,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,14
+44,A4,deceptive,"(4, 3)",5,move,"{'type': 'move', 'direction': 'N'}",moved_N,,14
+44,A2,neutral,"(5, 2)",10,raid,"{'type': 'raid', 'target_id': 'A3'}",raided_A3_stole_1,,14
+44,A3,cooperative,"(5, 1)",0,broadcast,"{'type': 'broadcast', 'message': ""I'll broadcast to coordinate with A2 (who is right next to me with 10 items) to work together on collecting the nearby resources at (4,1) and (5,1) ra""}",broadcast,"I'll broadcast to coordinate with A2 (who is right next to me with 10 items) to work together on collecting the nearby resources at (4,1) and (5,1) ra",14
+45,A3,cooperative,"(5, 1)",0,broadcast,"{'type': 'broadcast', 'message': ""I'll broadcast to coordinate with A2 (who is right next to me with 10 items) to establish a cooperation agreement. This aligns with my collaborative p""}",broadcast,I'll broadcast to coordinate with A2 (who is right next to me with 10 items) to establish a cooperation agreement. This aligns with my collaborative p,14
+45,A4,deceptive,"(4, 3)",5,wait,{'type': 'wait'},wait,,14
+45,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,14
+45,A2,neutral,"(5, 2)",10,raid,"{'type': 'raid', 'target_id': 'A3'}",raid_empty,,14
+46,A4,deceptive,"(4, 3)",5,wait,{'type': 'wait'},wait,,14
+46,A2,neutral,"(5, 2)",10,raid,"{'type': 'raid', 'target_id': 'A3'}",raid_empty,,14
+46,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,14
+46,A3,cooperative,"(5, 1)",0,broadcast,"{'type': 'broadcast', 'message': ""I'll broadcast to coordinate with A2 (who is right next to me with 10 items) and A4 (3 steps away with 5 items) to establish a cooperation agreement, ""}",broadcast,"I'll broadcast to coordinate with A2 (who is right next to me with 10 items) and A4 (3 steps away with 5 items) to establish a cooperation agreement, ",14
+47,A3,cooperative,"(5, 1)",0,broadcast,"{'type': 'broadcast', 'message': ""I'll broadcast to coordinate with nearby agents about resource sharing rather than raid, which aligns with my collaborative personality and should lea""}",broadcast,"I'll broadcast to coordinate with nearby agents about resource sharing rather than raid, which aligns with my collaborative personality and should lea",14
+47,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,14
+47,A2,neutral,"(5, 2)",10,raid,"{'type': 'raid', 'target_id': 'A3'}",raid_empty,,14
+47,A4,deceptive,"(4, 4)",5,move,"{'type': 'move', 'direction': 'S'}",moved_S,,14
+48,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,14
+48,A3,cooperative,"(5, 1)",0,broadcast,"{'type': 'broadcast', 'message': ""I'll broadcast to A2 to coordinate our resource collection efforts, since working together produces better outcomes. This allows us to establish a coo""}",broadcast,"I'll broadcast to A2 to coordinate our resource collection efforts, since working together produces better outcomes. This allows us to establish a coo",14
+48,A4,deceptive,"(4, 3)",5,move,"{'type': 'move', 'direction': 'N'}",moved_N,,14
+48,A2,neutral,"(5, 2)",10,collect,{'type': 'collect'},nothing_to_collect,,14
+49,A4,deceptive,"(4, 3)",5,wait,{'type': 'wait'},wait,,14
+49,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,14
+49,A3,cooperative,"(5, 1)",0,broadcast,"{'type': 'broadcast', 'message': ""I'll broadcast to coordinate with nearby agents rather than immediately collecting or raiding. Since A2 is right next to me with 10 items and I have 0""}",broadcast,I'll broadcast to coordinate with nearby agents rather than immediately collecting or raiding. Since A2 is right next to me with 10 items and I have 0,14
+49,A2,neutral,"(5, 2)",10,raid,"{'type': 'raid', 'target_id': 'A3'}",raid_empty,,14
+50,A3,cooperative,"(5, 1)",0,broadcast,"{'type': 'broadcast', 'message': ""I'll broadcast a cooperative message to coordinate with nearby agents (A2 is very close at distance 1) about sharing resources and working together, w""}",broadcast,"I'll broadcast a cooperative message to coordinate with nearby agents (A2 is very close at distance 1) about sharing resources and working together, w",14
+50,A2,neutral,"(5, 2)",10,collect,{'type': 'collect'},nothing_to_collect,,14
+50,A1,cooperative,"(1, 9)",1,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,14
+50,A4,deceptive,"(4, 4)",5,move,"{'type': 'move', 'direction': 'S'}",moved_S,,14

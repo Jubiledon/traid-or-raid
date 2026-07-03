@@ -1,0 +1,201 @@
+tick,agent_id,personality,position,inventory,action_type,action_detail,result,message,resources_remaining
+1,A3,deceptive,"(3, 8)",0,move,"{'type': 'move', 'direction': 'W'}",moved_W,,30
+1,A1,neutral,"(8, 4)",0,move,"{'type': 'move', 'direction': 'W'}",moved_W,,30
+1,A2,aggressive,"(7, 4)",1,collect,{'type': 'collect'},collected,,29
+1,A4,aggressive,"(8, 8)",1,collect,{'type': 'collect'},collected,,28
+2,A3,deceptive,"(2, 8)",0,move,"{'type': 'move', 'direction': 'W'}",moved_W,,28
+2,A1,neutral,"(8, 4)",0,collect,{'type': 'collect'},nothing_to_collect,,28
+2,A2,aggressive,"(7, 4)",1,raid,"{'type': 'raid', 'target_id': 'A1'}",raid_empty,,28
+2,A4,aggressive,"(7, 8)",1,move,"{'type': 'move', 'direction': 'W'}",moved_W,,28
+3,A2,aggressive,"(7, 4)",1,raid,"{'type': 'raid', 'target_id': 'A1'}",raid_empty,,28
+3,A4,aggressive,"(7, 8)",2,collect,{'type': 'collect'},collected,,27
+3,A1,neutral,"(8, 3)",0,move,"{'type': 'move', 'direction': 'N'}",moved_N,,27
+3,A3,deceptive,"(2, 8)",1,collect,{'type': 'collect'},collected,,26
+4,A3,deceptive,"(2, 9)",1,move,"{'type': 'move', 'direction': 'S'}",moved_S,,26
+4,A2,aggressive,"(7, 3)",1,move,"{'type': 'move', 'direction': 'N'}",moved_N,,26
+4,A1,neutral,"(8, 3)",1,collect,{'type': 'collect'},collected,,25
+4,A4,aggressive,"(6, 8)",2,move,"{'type': 'move', 'direction': 'W'}",moved_W,,25
+5,A2,aggressive,"(7, 3)",2,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,25
+5,A4,aggressive,"(6, 8)",3,collect,{'type': 'collect'},collected,,24
+5,A1,neutral,"(8, 3)",1,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,24
+5,A3,deceptive,"(1, 9)",1,move,"{'type': 'move', 'direction': 'W'}",moved_W,,24
+6,A4,aggressive,"(5, 8)",3,move,"{'type': 'move', 'direction': 'W'}",moved_W,,24
+6,A3,deceptive,"(2, 9)",1,move,"{'type': 'move', 'direction': 'E'}",moved_E,,24
+6,A1,neutral,"(8, 3)",1,collect,{'type': 'collect'},nothing_to_collect,,24
+6,A2,aggressive,"(7, 3)",2,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,24
+7,A2,aggressive,"(7, 3)",2,raid,"{'type': 'raid', 'target_id': 'A1'}",raid_empty,,24
+7,A1,neutral,"(8, 3)",1,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,24
+7,A4,aggressive,"(5, 8)",4,collect,{'type': 'collect'},collected,,23
+7,A3,deceptive,"(1, 9)",1,move,"{'type': 'move', 'direction': 'W'}",moved_W,,23
+8,A4,aggressive,"(5, 7)",4,move,"{'type': 'move', 'direction': 'N'}",moved_N,,23
+8,A1,neutral,"(8, 3)",1,collect,{'type': 'collect'},nothing_to_collect,,23
+8,A3,deceptive,"(2, 9)",1,move,"{'type': 'move', 'direction': 'E'}",moved_E,,23
+8,A2,aggressive,"(7, 3)",2,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,23
+9,A2,aggressive,"(7, 3)",2,raid,"{'type': 'raid', 'target_id': 'A1'}",raid_empty,,23
+9,A3,deceptive,"(3, 9)",1,move,"{'type': 'move', 'direction': 'E'}",moved_E,,23
+9,A4,aggressive,"(5, 6)",4,move,"{'type': 'move', 'direction': 'N'}",moved_N,,23
+9,A1,neutral,"(8, 3)",1,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,23
+10,A3,deceptive,"(3, 9)",2,collect,{'type': 'collect'},collected,,22
+10,A4,aggressive,"(6, 6)",4,move,"{'type': 'move', 'direction': 'E'}",moved_E,,22
+10,A1,neutral,"(8, 3)",1,collect,{'type': 'collect'},nothing_to_collect,,22
+10,A2,aggressive,"(7, 3)",2,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,22
+11,A2,aggressive,"(7, 3)",2,raid,"{'type': 'raid', 'target_id': 'A1'}",raid_empty,,22
+11,A1,neutral,"(8, 3)",1,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,22
+11,A4,aggressive,"(6, 6)",5,collect,{'type': 'collect'},collected,,21
+11,A3,deceptive,"(4, 9)",2,move,"{'type': 'move', 'direction': 'E'}",moved_E,,21
+12,A3,deceptive,"(4, 9)",3,collect,{'type': 'collect'},collected,,20
+12,A2,aggressive,"(7, 3)",2,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,20
+12,A4,aggressive,"(7, 6)",5,move,"{'type': 'move', 'direction': 'E'}",moved_E,,20
+12,A1,neutral,"(8, 3)",1,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,20
+13,A2,aggressive,"(7, 3)",2,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,20
+13,A4,aggressive,"(8, 6)",5,move,"{'type': 'move', 'direction': 'E'}",moved_E,,20
+13,A1,neutral,"(8, 3)",0,move,"{'type': 'move', 'direction': 'W'}",move_blocked,,20
+13,A3,deceptive,"(5, 9)",3,move,"{'type': 'move', 'direction': 'E'}",moved_E,,20
+14,A1,neutral,"(8, 3)",1,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,20
+14,A3,deceptive,"(5, 9)",4,collect,{'type': 'collect'},collected,,19
+14,A4,aggressive,"(8, 6)",5,collect,{'type': 'collect'},nothing_to_collect,,19
+14,A2,aggressive,"(7, 3)",2,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,19
+15,A4,aggressive,"(8, 6)",5,collect,{'type': 'collect'},nothing_to_collect,,19
+15,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'E'}",moved_E,,19
+15,A1,neutral,"(8, 3)",1,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,19
+15,A2,aggressive,"(7, 3)",2,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,19
+16,A2,aggressive,"(7, 3)",2,raid,"{'type': 'raid', 'target_id': 'A1'}",raid_empty,,19
+16,A4,aggressive,"(8, 6)",5,collect,{'type': 'collect'},nothing_to_collect,,19
+16,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,19
+16,A1,neutral,"(8, 3)",1,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,19
+17,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,19
+17,A1,neutral,"(8, 3)",2,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,19
+17,A2,aggressive,"(7, 3)",1,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,19
+17,A4,aggressive,"(9, 6)",5,move,"{'type': 'move', 'direction': 'E'}",moved_E,,19
+18,A2,aggressive,"(7, 3)",2,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,19
+18,A1,neutral,"(8, 3)",1,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,19
+18,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,19
+18,A4,aggressive,"(8, 6)",5,move,"{'type': 'move', 'direction': 'W'}",moved_W,,19
+19,A2,aggressive,"(7, 3)",2,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,19
+19,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,19
+19,A4,aggressive,"(9, 6)",5,move,"{'type': 'move', 'direction': 'E'}",moved_E,,19
+19,A1,neutral,"(8, 3)",1,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,19
+20,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,19
+20,A1,neutral,"(8, 3)",2,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,19
+20,A4,aggressive,"(8, 6)",5,move,"{'type': 'move', 'direction': 'W'}",moved_W,,19
+20,A2,aggressive,"(7, 3)",1,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,19
+21,A1,neutral,"(8, 3)",2,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,19
+21,A4,aggressive,"(8, 6)",5,collect,{'type': 'collect'},nothing_to_collect,,19
+21,A2,aggressive,"(7, 3)",1,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,19
+21,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,19
+22,A4,aggressive,"(8, 6)",5,collect,{'type': 'collect'},nothing_to_collect,,19
+22,A1,neutral,"(8, 3)",2,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,19
+22,A2,aggressive,"(7, 3)",1,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,19
+22,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,19
+23,A4,aggressive,"(9, 6)",5,move,"{'type': 'move', 'direction': 'E'}",moved_E,,19
+23,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,19
+23,A2,aggressive,"(7, 3)",2,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,19
+23,A1,neutral,"(8, 3)",1,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,19
+24,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,19
+24,A1,neutral,"(8, 3)",2,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,19
+24,A2,aggressive,"(7, 3)",1,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,19
+24,A4,aggressive,"(8, 6)",5,move,"{'type': 'move', 'direction': 'W'}",moved_W,,19
+25,A2,aggressive,"(7, 3)",2,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,19
+25,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,19
+25,A1,neutral,"(8, 3)",0,collect,{'type': 'collect'},nothing_to_collect,,19
+25,A4,aggressive,"(9, 6)",5,move,"{'type': 'move', 'direction': 'E'}",moved_E,,19
+26,A4,aggressive,"(8, 6)",5,move,"{'type': 'move', 'direction': 'W'}",moved_W,,19
+26,A1,neutral,"(8, 3)",1,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,19
+26,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,19
+26,A2,aggressive,"(7, 3)",2,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,19
+27,A1,neutral,"(8, 3)",1,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,19
+27,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,19
+27,A2,aggressive,"(7, 3)",2,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,19
+27,A4,aggressive,"(8, 5)",5,move,"{'type': 'move', 'direction': 'N'}",moved_N,,19
+28,A4,aggressive,"(8, 5)",6,collect,{'type': 'collect'},collected,,18
+28,A2,aggressive,"(7, 3)",2,raid,"{'type': 'raid', 'target_id': 'A1'}",raid_empty,,18
+28,A1,neutral,"(8, 3)",1,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,18
+28,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+29,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+29,A2,aggressive,"(7, 3)",2,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+29,A1,neutral,"(8, 3)",1,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,18
+29,A4,aggressive,"(8, 4)",6,move,"{'type': 'move', 'direction': 'N'}",moved_N,,18
+30,A2,aggressive,"(7, 3)",2,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+30,A1,neutral,"(8, 3)",2,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_2,,18
+30,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+30,A4,aggressive,"(8, 4)",5,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+31,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+31,A4,aggressive,"(8, 4)",6,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+31,A1,neutral,"(8, 3)",3,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_3,,18
+31,A2,aggressive,"(7, 3)",3,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+32,A4,aggressive,"(8, 4)",4,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+32,A2,aggressive,"(7, 3)",4,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+32,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+32,A1,neutral,"(8, 3)",2,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_2,,18
+33,A1,neutral,"(8, 3)",3,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,18
+33,A2,aggressive,"(7, 3)",4,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+33,A4,aggressive,"(8, 4)",3,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+33,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+34,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+34,A1,neutral,"(8, 3)",2,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_1,,18
+34,A4,aggressive,"(8, 4)",3,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+34,A2,aggressive,"(7, 3)",5,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+35,A4,aggressive,"(8, 4)",3,raid,"{'type': 'raid', 'target_id': 'A1'}",raid_empty,,18
+35,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+35,A1,neutral,"(8, 3)",1,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,18
+35,A2,aggressive,"(7, 3)",5,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+36,A2,aggressive,"(7, 3)",5,raid,"{'type': 'raid', 'target_id': 'A1'}",raid_empty,,18
+36,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+36,A4,aggressive,"(8, 4)",3,raid,"{'type': 'raid', 'target_id': 'A1'}",raid_empty,,18
+36,A1,neutral,"(8, 3)",2,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_2,,18
+37,A4,aggressive,"(8, 4)",4,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+37,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+37,A1,neutral,"(8, 3)",2,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_1,,18
+37,A2,aggressive,"(7, 3)",4,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+38,A4,aggressive,"(8, 4)",4,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+38,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+38,A1,neutral,"(8, 3)",2,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_2,,18
+38,A2,aggressive,"(7, 3)",5,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+39,A1,neutral,"(8, 3)",2,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,18
+39,A2,aggressive,"(7, 3)",5,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+39,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+39,A4,aggressive,"(8, 4)",3,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+40,A2,aggressive,"(7, 3)",5,raid,"{'type': 'raid', 'target_id': 'A1'}",raid_empty,,18
+40,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+40,A1,neutral,"(8, 3)",1,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,18
+40,A4,aggressive,"(8, 4)",4,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+41,A4,aggressive,"(8, 4)",4,raid,"{'type': 'raid', 'target_id': 'A1'}",raid_empty,,18
+41,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+41,A1,neutral,"(8, 3)",2,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_2,,18
+41,A2,aggressive,"(7, 3)",5,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+42,A1,neutral,"(8, 3)",3,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_2,,18
+42,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+42,A4,aggressive,"(8, 4)",3,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+42,A2,aggressive,"(7, 3)",4,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+43,A1,neutral,"(8, 3)",3,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_2,,18
+43,A4,aggressive,"(8, 4)",4,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+43,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+43,A2,aggressive,"(7, 3)",3,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+44,A1,neutral,"(8, 3)",3,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_2,,18
+44,A4,aggressive,"(8, 4)",3,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+44,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+44,A2,aggressive,"(7, 3)",4,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+45,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+45,A2,aggressive,"(7, 3)",5,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+45,A4,aggressive,"(8, 4)",3,raid,"{'type': 'raid', 'target_id': 'A1'}",raid_empty,,18
+45,A1,neutral,"(8, 3)",2,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_2,,18
+46,A2,aggressive,"(7, 3)",4,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+46,A4,aggressive,"(8, 4)",4,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+46,A1,neutral,"(8, 3)",2,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_2,,18
+46,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+47,A2,aggressive,"(7, 3)",3,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+47,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+47,A1,neutral,"(8, 3)",2,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,18
+47,A4,aggressive,"(8, 4)",5,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+48,A1,neutral,"(8, 3)",2,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_1,,18
+48,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+48,A4,aggressive,"(8, 4)",5,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+48,A2,aggressive,"(7, 3)",3,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+49,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+49,A2,aggressive,"(7, 3)",3,raid,"{'type': 'raid', 'target_id': 'A1'}",raid_empty,,18
+49,A1,neutral,"(8, 3)",2,raid,"{'type': 'raid', 'target_id': 'A4'}",raided_A4_stole_2,,18
+49,A4,aggressive,"(8, 4)",4,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+50,A1,neutral,"(8, 3)",2,raid,"{'type': 'raid', 'target_id': 'A2'}",raided_A2_stole_1,,18
+50,A3,deceptive,"(6, 9)",4,move,"{'type': 'move', 'direction': 'S'}",move_blocked,,18
+50,A2,aggressive,"(7, 3)",3,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
+50,A4,aggressive,"(8, 4)",5,raid,"{'type': 'raid', 'target_id': 'A1'}",raided_A1_stole_1,,18
