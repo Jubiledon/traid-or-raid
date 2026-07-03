@@ -1,7 +1,5 @@
 # Trade or Raid: Language and Strategy in Competing LLM Agents
 
-Coursework submission for COMP3004 Designing Intelligent Agents, University of Nottingham, Spring 2025/26.
-
 This project simulates competing LLM-powered agents in a shared grid world. Agents collect resources and optionally raid rivals, with or without natural language communication enabled. Three core agent types are compared across multiple experimental conditions.
 
 ---
@@ -122,7 +120,7 @@ Each run produces per-trial CSV files in `logs/runs/<condition>/` and an aggrega
 
 ---
 
-## Notes for Markers
+## Notes
 
 - LLM conditions use the Anthropic API (Claude Haiku). Running all conditions costs a small amount in API credits. The `simple` condition uses no API calls.
 - Headless mode (`-H`) disables Pygame entirely and is recommended for replication.
